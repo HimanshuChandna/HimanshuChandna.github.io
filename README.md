@@ -7,5 +7,5 @@
 - Love micro-controllers.      ⭐fav:[adruino](https://www.arduino.cc).
 - Some music after a long day. ⭐fav:[spotify](https://www.spotify.com).
 ### 💬 Get in touch
- - Twitter:https:://twitter.com/
- - Instagram:https:://instagram.com/
+ - Twitter:[https:://twitter.com/Himanshu38871370](https:://twitter.com/Himanshu38871370)
+ - Instagram:[https:://instagram.com/mr.himanshuchandna](https:://instagram.com/mr.himanshuchandna)
