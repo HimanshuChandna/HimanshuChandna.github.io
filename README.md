@@ -1,4 +1,4 @@
-# Hi, I'm Himanshu :wave:
+# Hi, I'm Himanshu 👋
 I'm currently prsuing B.Sc Data Science and Programming from Indian Institute of Technology Madras.
 
 ## 👨‍🎓 Education:
@@ -8,6 +8,7 @@ I'm currently prsuing B.Sc Data Science and Programming from Indian Institute of
 ##
 
 ## ⚛️ Experience:
+##
 ### Working with:         
 - [C](https://en.wikipedia.org/wiki/C_(programming_language))
 - [C++](https://en.wikipedia.org/wiki/C%2B%2B)
@@ -17,10 +18,12 @@ I'm currently prsuing B.Sc Data Science and Programming from Indian Institute of
 
 ##
 ## 👨‍💻 Interests:
+##
 - Love micro-controllers.      ⭐fav:[adruino](https://www.arduino.cc).
 - Some music after a long day. ⭐fav:[spotify](https://www.spotify.com).
 
-### 💬 Get in touch
+### 💬 Get in touch:
+##
  - Twitter:[https:://twitter.com/Himanshu38871370](https://twitter.com/ChandnaHimanshu)
  - Instagram:[https:://instagram.com/mr.himanshuchandna](https://www.instagram.com/mr.himanshuchandna/)
  
