@@ -16,7 +16,7 @@ I'm currently prsuing B.Sc Data Science and Programming from Indian Institute of
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) 
 - [Java Script](https://en.wikipedia.org/wiki/JavaScript)
 
-##
+## 
 ## 👨‍💻 Interests:
 ##
 - Love micro-controllers.      ⭐fav:[adruino](https://www.arduino.cc).
