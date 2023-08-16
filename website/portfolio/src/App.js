@@ -1,12 +1,18 @@
 import './App.css';
-import Navbar from "./components/Navbar";
+import NavBar from "./components/Navbar";
+import Name_Section from './components/Name_Section';
+import Intro_Section_Top from './components/Intro_Section_Top';
+import Intro_Section_Timeline from './components/Intro_Section_Timeline';
 
 function App(){
 
   return(
 
     <>
-<Navbar></Navbar>
+      <NavBar></NavBar>
+      <Name_Section></Name_Section>
+      <Intro_Section_Top></Intro_Section_Top>
+      <Intro_Section_Timeline></Intro_Section_Timeline>
     </>
 
   );
