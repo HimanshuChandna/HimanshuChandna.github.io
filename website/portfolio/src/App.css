@@ -1,5 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;400&family=Roboto+Flex:opsz,wght@8..144,500&display=swap');
+
 body{
 
     background-color: rgb(217, 217, 217, .2)
 
 }
+
+#Name{
+
+    text-align: center;
+    font-family:"Averi Serif Libre";
+    margin-top:100px;
+    padding-bottom:10px;
+
+}
+
+.underline{
+
+    width:200px;
+    height:0px;
+    margin:0px;
+    padding:0px;
+    border-bottom:2px solid black;
+    margin:auto;
+
+}
+
+#Name_under_line{
+
+    width:200px;
+    height:2px;
+    margin:auto;
+
+}
+
+.btn{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 1.25rem;
+    padding:15px;
+    border-radius:50%;
+
+}
+
+#twitter_btn{
+
+    width:25px;
+    height:25px;
+
+}
+
+#github_btn{
+
+    width:25px;
+    height:25px;
+
+}
+
+#linkedin_btn{
+
+    width:25px;
+    height:25px;
+
+}
+
+.section{
+
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto Flex";
+    font-weight:medium;
+
+}
+
+.redirect_btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.redirect_btn button{
+
+    width:200px;
+    height:80px;
+    margin:20px;
+    border:2px solid black;
+    border-radius:7px;
+
+}
+
+#visit_btn{
+
+    margin:0px;
+    padding:0px;
+
+}
+
+#contact_btn{
+
+    margin:0px;
+    padding:0px;
+
+}
+
+.experiment{
+
+    margin:0px;
+    padding:0px;
+    height:50px;
+    width:50px;
+    border-right:4px solid black;
+    border-bottom:4px solid black;
+    /* border-radius:2 px; */
+    transform: rotate(45deg);
+    margin:auto;  
+    animation:"down_arrow";
+    animation-duration: 1s;
+
+}
+
+.experiment:hover{
+
+    cursor: pointer;
+    box-shadow: 20px 20px 10px black;
+    transition-timing-function:ease-in-out ;
+    transition-duration: .5s;
+    /* animation-name:down_arrow;
+    animation-duration: 1s; */
+
+}
+
+@keyframes down_arrow {
+
+    0%{
+
+        left:0px;
+        bottom:0px;
+
+    }
+
+    25%{
+
+        left:10px;
+        bottom:0px;
+
+    }
+
+    75%{
+
+        left:10px;
+        bottom:10px;
+
+    }
+
+    100%{
+
+        left:0px;
+        bottom:20px;
+
+    }
+    
+}
+
+
