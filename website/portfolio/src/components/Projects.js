@@ -6,8 +6,8 @@ export default function Projects() {
 
         <>
         
-            <h1>Projects</h1>
-            <hr></hr>
+            <h1 class="Project_heading">Projects</h1>
+            <div class="underline"></div>
 
         </>
 
