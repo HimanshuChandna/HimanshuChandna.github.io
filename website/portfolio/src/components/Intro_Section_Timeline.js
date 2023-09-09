@@ -32,12 +32,17 @@ export default function Intro_Section_Timeline() {
               <div class="test-2">
                 <p>BS in Data Science (Enrolled)</p>
                   <div class="time">
+                    
                    {/* <hr></hr> */}
                   </div>
                 <p>Indian Institute of Technology, Madras</p>
               </div>
 
-              <div class="comp_mark"></div>
+              <div class="comp_mark">
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <div class="circle3"></div>
+              </div>
 
               <div class="test-3">
                 <p>Bachelor of Computer Applications (Enrolled)</p>

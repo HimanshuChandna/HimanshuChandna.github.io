@@ -14,6 +14,7 @@ export default function Contact() {
             <form>
                 <h1 className='Contact_form_heading'>ASK ME ANYTHING</h1>
                 <div class="underline"></div>
+                <div class="Contact-form">
                 <div class="mb-3">
                     <label for="Email" class="form-label" id="label_email">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
@@ -27,8 +28,9 @@ export default function Contact() {
                     <span class="input-group-text">With textarea</span>
                     <textarea class="form-control" aria-label="With textarea"></textarea>
                 </div>
-                <div class="form_sub_btn">
+                {/* <div class="form_sub_btn"> */}
                     <button type="submit" id="form_sub_btn" class="btn btn-primary">Submit</button>
+                {/* </div> */}
                 </div>
             </form>
             <div class="underline"></div>
