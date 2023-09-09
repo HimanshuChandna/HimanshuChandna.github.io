@@ -6,12 +6,14 @@ export default function Contact() {
 
 
         <>
-        
+        <div class="contact_container">
             <h1 className='Contact_heading'>Contact</h1>
             <div class="underline"></div>
+            <div class="contact_sub_heading">
             <p id="contact_sub_heading">Feel free to contact me for any question. For open source projects, please ping me through the ASK ME ANYTHING window given below. If you want to follow my work, reach me on Github, follow me on Twitter or send me an email at himanshuchandna0007@gmail.com</p>
+            </div>
             {/* <div class="underline"></div> */}
-            <form>
+            <form class="query_form">
                 <h1 className='Contact_form_heading'>ASK ME ANYTHING</h1>
                 <div class="underline"></div>
                 <div class="Contact-form">
@@ -20,25 +22,28 @@ export default function Contact() {
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                {/* <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Subject</label>
                     <input type="password" class="form-control" id="exampleInputPassword1"/>
-                </div>
+                </div> */}
                 <div class="input-group">
-                    <span class="input-group-text">With textarea</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <span class="input-group-text">Query</span>
+                    <textarea class="form-control" aria-label="Query"></textarea>
                 </div>
-                {/* <div class="form_sub_btn"> */}
+                <div class="form_sub_btn">
                     <button type="submit" id="form_sub_btn" class="btn btn-primary">Submit</button>
-                {/* </div> */}
+                </div>
                 </div>
             </form>
-            <div class="underline"></div>
-            <div class="footer_btn">
+            </div>
+            {/* <div class="underline"></div> */}
+            <div class="footer_div"></div>
+            <div class="footer_btn_container">
                 <button type="button" id="footer_btns" class="btn btn-outline-dark">Linkedin</button>
                 <button type="button" id="footer_btns" class="btn btn-outline-dark">Github</button>
-                <button type="button" id="footer_btns" class="btn btn-outline-dark"><a href="mailto:himanshuchandna0007@gmail.com">Mail</a></button>
+                <button type="button" id="footer_btns" class="btn btn-outline-dark">Mail</button>
             </div>
+          
             <p id="footer_cr">Copyright © Himanshu Chandna 2023</p>
         
         </>

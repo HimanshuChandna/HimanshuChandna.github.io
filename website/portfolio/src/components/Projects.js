@@ -5,10 +5,10 @@ export default function Projects() {
     <div>
 
         <>
-        
+          <div class="project_tab">
             <h1 class="Project_heading">Projects</h1>
             <div class="underline"></div>
-
+          </div>
         </>
 
     </div>

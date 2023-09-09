@@ -7,6 +7,15 @@ body{
 
 }
 
+.landing_page{
+
+
+    height:100vh;
+    border:1px solid lawngreen;
+    margin:0px;
+
+}
+
 #Name{
 
     text-align: center;
@@ -35,7 +44,7 @@ body{
 
 }
 
-.btn{
+.btn_container{
 
     display:flex;
     flex-direction: row;
@@ -47,24 +56,21 @@ body{
 
 }
 
-#twitter_btn{
+.twitter_btn, .github_btn, .linkedin_btn{
 
-    width:25px;
-    height:25px;
-
-}
-
-#github_btn{
-
-    width:25px;
-    height:25px;
+    border-radius:100%;
+    width:60px;
+    height:60px;
+    background-color: black;
+    margin:0px 20px;
 
 }
 
-#linkedin_btn{
+#twitter_btn, #github_btn, #linkedin_btn{
 
     width:25px;
     height:25px;
+    color:white;
 
 }
 
@@ -83,6 +89,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin:50px 0px 25px 0px;
 
 }
 
@@ -96,14 +103,7 @@ body{
 
 }
 
-#visit_btn{
-
-    margin:0px;
-    padding:0px;
-
-}
-
-#contact_btn{
+#visit_btn , #contact_btn{
 
     margin:0px;
     padding:0px;
@@ -118,7 +118,7 @@ body{
     width:50px;
     border-right:4px solid black;
     border-bottom:4px solid black;
-    /* border-radius:2 px; */
+    border-radius:10%;
     transform: rotate(45deg);
     margin:auto;  
     animation:"down_arrow";
@@ -137,47 +137,45 @@ body{
 
 }
 
-@keyframes down_arrow {
-
-    0%{
-
-        left:0px;
-        bottom:0px;
-
-    }
-
-    25%{
-
-        left:10px;
-        bottom:0px;
-
-    }
-
-    75%{
-
-        left:10px;
-        bottom:10px;
-
-    }
-
-    100%{
-
-        left:0px;
-        bottom:20px;
-
-    }
-    
-}
-
 
 /* The following code belongs to the Intro_Section_Top.js  */
+
+.Intro_container{
+
+    height:100vh;
+    border:2px solid blue;
+    margin:0px 30px;
+
+}
 
 .profile-intro{
 
     display:flex;
     flex-direction: row;
-    align-items:center;
-    justify-content: space-around;
+    align-items:flex-end;
+    justify-content: flex-start;
+    margin:30px 30px 30px 120px;
+    gap:80px;
+    border:1px solid red;
+
+}
+
+#profile-intro{
+
+    font-size: 15px;
+    font-family: "Roboto Flex";
+    font-weight:medium;
+    border:1px solid palevioletred;
+
+}
+
+.profile-desc{
+
+    border:2px solid black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+
 
 }
 
@@ -185,22 +183,19 @@ body{
 
     display:flex;
     flex-direction:row;
-
-}
-
-.profile-intro{
-
-    text-align: center;
+    border:2px solid black;
+    gap:90px;
 
 }
 
 .redirect_btn7{
 
-    width:250px;
-    height:80px;
-    margin:0px 10px;
-    border-radius:10px;
-    font-size: 20px;
+    width:150px;
+    height:60px;
+    /* margin:10px 5px 0px 5px; */
+    /* gap:90px; */
+    border-radius:7px;
+    font-size: 15px;
     font-family: "Roboto Flex";
     font-weight:medium;
     
@@ -212,6 +207,8 @@ body{
 
     width:280px;
     height:280px;
+    border:2px solid black;
+    border-radius:5%;
 
 }
 
@@ -245,7 +242,7 @@ body{
     justify-content:center;
     align-items: center;
     border:2px solid red;
-    margin:250px 25px;
+    margin:150px 25px;
 
 }
 
@@ -399,13 +396,32 @@ body{
 
 /* Project Page */
 
+.project_tab{
+
+    height:100vh;
+    border:1px solid red;
+    margin:0px 30px;
+    padding:30px 0px;
+
+}
+
 .Project_heading{
 
     text-align:center;
+    /* margin:100vh; */
 
 }
 
 /* Contact Page */
+
+.contact_container{
+
+    border:2px solid purple;
+    margin:0px 30px;
+    padding:30px 0px;
+    height:100vh;
+
+}
 
 .Contact_heading{
 
@@ -413,9 +429,24 @@ body{
 
 }
 
-#contact_sub_heading{
+.contact_sub_heading{
 
     text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:40px;
+    /* margin-inline:300px; */
+
+}
+
+#contact_sub_heading{
+
+    width:550px;
+    font-size: 20px;
+    font-family: "Roboto Flex";
+    font-weight:medium;
+
 
 }
 
@@ -425,12 +456,21 @@ body{
 
 }
 
+.query_form{
+
+    /* border:2px solid grey; */
+    margin:20px;
+    padding:10px;
+    /* border-radius:10px; */
+
+}
+
 .Contact-form{
 
     display:flex;
     flex-direction:column;
     align-items:center;
-    border:2px solid red;
+    /* border:2px solid red; */
 
 }
 
@@ -474,12 +514,12 @@ body{
 
 #form_sub_btn{
 
-    height:80px;
-    width:225px;
+    height:50px;
+    width:150px;
     border-radius:5px;
     border:2px solid black;
     /* justify-content: center; */
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Roboto Flex";
     font-weight:medium;
     
@@ -492,35 +532,50 @@ body{
     flex-direction:row;
     /* justify-content: flex-start; */
     /* margin-left: 100px; */
-    margin-top:20px;
-    margin-bottom:50px;
+    /* margin-top:20px;
+    margin-bottom:50px; */
 
 }
 
-.footer_btn{
+.footer_btn_container{
 
     display:flex;
     flex-direction:row;
     justify-content: center;
+    margin:0px;
     
 
 }
 
 #footer_btns{
 
-    width:250px;
-    height:80px;
+    width:120px;
+    height:40px;
     border-radius:5px;
     background-color:transparent;
     border:2px solid black;
-    font-size: 20px;
+    font-size: 15px;
     font-family: "Roboto Flex";
     font-weight:medium;
 
 }
 
+#footer_btns a{
+
+    text-decoration: none;
+    color:black;
+
+}
+
+.footer_div{
+
+    border:2px solid black;
+
+}
+
 #footer_cr{
 
+    margin:0px 0px 10px 0px;
     text-align:center;
     font-size: 15px;
     font-family: "Roboto Flex";
