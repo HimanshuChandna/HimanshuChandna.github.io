@@ -423,6 +423,19 @@ body{
 
 }
 
+.Contact_sec{
+
+    border:2px solid black;
+
+}
+
+.query_form{
+
+    border:2px solid black;
+    margin:80px;
+
+}
+
 .Contact_heading{
 
     text-align:center;
@@ -450,6 +463,12 @@ body{
 
 }
 
+#contact_sub_heading a{
+
+    text-decoration:none;
+
+}
+
 .Contact_form_heading{
 
     text-align:center;
@@ -459,9 +478,23 @@ body{
 .query_form{
 
     /* border:2px solid grey; */
-    margin:20px;
+    /* margin:20px; */
     padding:10px;
+    border:2px solid black;
+    margin:70px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
     /* border-radius:10px; */
+
+}
+
+.form{
+
+    border:2px solid red;
+    display:inline-flex;
+    flex-direction: column;
+    align-items:center;
 
 }
 
@@ -469,7 +502,8 @@ body{
 
     display:flex;
     flex-direction:column;
-    align-items:center;
+    align-items:flex-start;
+    margin:10px 0px 0px 0px;
     /* border:2px solid red; */
 
 }
@@ -514,9 +548,10 @@ body{
 
 #form_sub_btn{
 
-    height:50px;
-    width:150px;
+    height:40px;
+    width:120px;
     border-radius:5px;
+    margin:20px 0px;
     border:2px solid black;
     /* justify-content: center; */
     font-size: 15px;
@@ -542,21 +577,43 @@ body{
     display:flex;
     flex-direction:row;
     justify-content: center;
-    margin:0px;
+    margin:20px 0px 10px 0px;
+    gap:20px;
     
 
 }
 
 #footer_btns{
 
-    width:120px;
+    width:40px;
     height:40px;
-    border-radius:5px;
-    background-color:transparent;
-    border:2px solid black;
-    font-size: 15px;
+    border-radius:100%;
+    background-color:black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    font-size: 13px;
     font-family: "Roboto Flex";
     font-weight:medium;
+
+}
+
+#footer_btns:hover{
+
+    background-color:rgb(70, 70, 70);
+
+}
+
+#foot_linkedin, #foot_github, #foot_mail{
+
+    width:20px;
+    height:20px;
+    color:white;
+
+}
+
+#foot_linkedin:hover, #foot_github:hover, #foot_mail:hover{
+
+    color:rgb(37, 172, 255);
 
 }
 
